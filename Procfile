@@ -1,1 +1,1 @@
-web: rackup config.ru -p $PORT -E $RACK_ENV
+web: rackup config.ru -p $PORT
