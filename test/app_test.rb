@@ -1,12 +1,8 @@
-require 'cuba/test'
-require File.expand_path("../app", File.dirname(__FILE__))
+require_relative "helper"
 
 scope do
   test "Homepage" do
-    get "/"
-
-    follow_redirect!
-
-    assert_equal "Hello world!", last_response.body
+    visit "/"
+    assert page.has_content?('Hello world!')
   end
 end
