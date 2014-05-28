@@ -42,7 +42,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
-  cuba
+  cuba (~> 3.1.0)
   cuba-contrib
   cutest
   rack-protection

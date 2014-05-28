@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 
 gem 'rack-protection'
-gem 'cuba'
+gem 'cuba', '~> 3.1.0'
 gem 'cuba-contrib'
 gem 'thin'
 gem 'shotgun'
